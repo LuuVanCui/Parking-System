@@ -17,6 +17,11 @@ namespace Parking_System
             InitializeComponent();
         }
 
+        private void mainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void manageVerhicleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             manageVehiclesForm manageForm = new manageVehiclesForm();
